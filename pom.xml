@@ -192,9 +192,9 @@
             </plugin>
 
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
+                <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-                <version>${maven.sonar.plugin.version}</version>
+                <version>3.3.0.603</version>
             </plugin>
 
         </plugins>
@@ -222,12 +222,6 @@
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>org.codehaus.sonar</groupId>
-            <artifactId>sonar-maven3-plugin</artifactId>
-            <version>5.1</version>
-            <type>pom</type>
-        </dependency>
         <dependency>
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
